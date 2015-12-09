@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TV INTELIGENTE</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <div id="interface">
+  </head>
+<body background="_imagens\ps2.PNG">
+
+<script>
+  function acende01(){
+    document.getElementById("luz"). src="_imagens/01.PNG";
+ }
+  function apagar02(){
+    document.getElementById("luz"). src="_imagens/02.PNG";
+}
+   function quebrar03(){
+     document.getElementById("luz").src="_imagens/03.PNG";
+}
+
+</script>
+
+
+    <h1>PASSE A SETA NA TV DEPOIS DE UM CLICK! </h1>
+
+     <img id="luz" src="_imagens/01.PNG"
+     onmousemove="acende01()"
+     onmouseout = "apagar02()"
+     onclick ="quebrar03()" />
+
+     <audio controls="controls">
+         <source src="_imagens\Mus1.mp3" type="audio/mp3" />
+     </audio>
+
+
+
+<img src="_imagens/me.gif" />
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Iy1rumvo9xc" frameborder="0" allowfullscreen></iframe>
+     <footer>
+
+<a HREF="oficial.html" TARGET="_blank"> <h2>VOLTE PARA A PAGINA OFICIAL </h2> </a>
+
+
+
+
+       <p>contato nas redes -  hebert oliveira <br/>
+       Facebook | Twitter</p>
+
+
+  </body>
+</html>
